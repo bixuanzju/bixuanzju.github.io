@@ -2,58 +2,58 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Xuan Bi</title>
-    <link>/publication_types/1/</link>
+    <link>https://bixuanzju.github.io/publication_types/1/</link>
     <description>Recent content in 1 on Xuan Bi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - Xuan Bi </copyright>
     <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bixuanzju.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The Essence of Nested Composition</title>
-      <link>/publication/nested-composition/</link>
+      <link>https://bixuanzju.github.io/publication/nested-composition/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/nested-composition/</guid>
+      <guid>https://bixuanzju.github.io/publication/nested-composition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Typed First-Class Traits</title>
-      <link>/publication/typed-first-class-traits/</link>
+      <link>https://bixuanzju.github.io/publication/typed-first-class-traits/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/typed-first-class-traits/</guid>
+      <guid>https://bixuanzju.github.io/publication/typed-first-class-traits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Consistent Subtyping for All</title>
-      <link>/publication/consistent-subtyping/</link>
+      <link>https://bixuanzju.github.io/publication/consistent-subtyping/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/consistent-subtyping/</guid>
+      <guid>https://bixuanzju.github.io/publication/consistent-subtyping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unified Syntax with Iso-Types</title>
-      <link>/publication/unifed-syntax/</link>
+      <link>https://bixuanzju.github.io/publication/unifed-syntax/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/unifed-syntax/</guid>
+      <guid>https://bixuanzju.github.io/publication/unifed-syntax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Memory-efficient Tail Calls in the JVM with Imperative Functional Objects</title>
-      <link>/publication/ifo/</link>
+      <link>https://bixuanzju.github.io/publication/ifo/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/ifo/</guid>
+      <guid>https://bixuanzju.github.io/publication/ifo/</guid>
       <description></description>
     </item>
     

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Xuan Bi on Xuan Bi</title>
-    <link>/</link>
+    <link>https://bixuanzju.github.io/</link>
     <description>Recent content in Xuan Bi on Xuan Bi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,91 +12,91 @@
     
     <item>
       <title>FCore</title>
-      <link>/project/fcore/</link>
+      <link>https://bixuanzju.github.io/project/fcore/</link>
       <pubDate>Thu, 12 Apr 2018 18:01:43 +0800</pubDate>
       
-      <guid>/project/fcore/</guid>
+      <guid>https://bixuanzju.github.io/project/fcore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NeColus</title>
-      <link>/project/necolus/</link>
+      <link>https://bixuanzju.github.io/project/necolus/</link>
       <pubDate>Thu, 12 Apr 2018 18:01:43 +0800</pubDate>
       
-      <guid>/project/necolus/</guid>
+      <guid>https://bixuanzju.github.io/project/necolus/</guid>
       <description></description>
     </item>
     
     <item>
       <title>category-agda</title>
-      <link>/project/category/</link>
+      <link>https://bixuanzju.github.io/project/category/</link>
       <pubDate>Thu, 12 Apr 2018 18:01:43 +0800</pubDate>
       
-      <guid>/project/category/</guid>
+      <guid>https://bixuanzju.github.io/project/category/</guid>
       <description></description>
     </item>
     
     <item>
       <title>SEDEL</title>
-      <link>/project/sedel/</link>
+      <link>https://bixuanzju.github.io/project/sedel/</link>
       <pubDate>Thu, 12 Apr 2018 17:58:11 +0800</pubDate>
       
-      <guid>/project/sedel/</guid>
+      <guid>https://bixuanzju.github.io/project/sedel/</guid>
       <description></description>
     </item>
     
     <item>
       <title>The Essence of Nested Composition</title>
-      <link>/publication/nested-composition/</link>
+      <link>https://bixuanzju.github.io/publication/nested-composition/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/nested-composition/</guid>
+      <guid>https://bixuanzju.github.io/publication/nested-composition/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Typed First-Class Traits</title>
-      <link>/publication/typed-first-class-traits/</link>
+      <link>https://bixuanzju.github.io/publication/typed-first-class-traits/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/typed-first-class-traits/</guid>
+      <guid>https://bixuanzju.github.io/publication/typed-first-class-traits/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Consistent Subtyping for All</title>
-      <link>/publication/consistent-subtyping/</link>
+      <link>https://bixuanzju.github.io/publication/consistent-subtyping/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/consistent-subtyping/</guid>
+      <guid>https://bixuanzju.github.io/publication/consistent-subtyping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Consistent Subtyping for All</title>
-      <link>/talk/consistent-subtyping/</link>
+      <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
-      <guid>/talk/consistent-subtyping/</guid>
+      <guid>https://bixuanzju.github.io/talk/consistent-subtyping/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Unified Syntax with Iso-Types</title>
-      <link>/publication/unifed-syntax/</link>
+      <link>https://bixuanzju.github.io/publication/unifed-syntax/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>/publication/unifed-syntax/</guid>
+      <guid>https://bixuanzju.github.io/publication/unifed-syntax/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Memory-efficient Tail Calls in the JVM with Imperative Functional Objects</title>
-      <link>/publication/ifo/</link>
+      <link>https://bixuanzju.github.io/publication/ifo/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/ifo/</guid>
+      <guid>https://bixuanzju.github.io/publication/ifo/</guid>
       <description></description>
     </item>
     
