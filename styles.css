@@ -143,12 +143,6 @@ video {
   margin: 0 auto;
 }
 
-figcaption:before {
-  font-weight: 700;
-  text-transform: uppercase;
-  content: "Figure " counter(captions) ": ";
-}
-
 figcaption {
   display: block;
   margin-top: 0.75em;
@@ -156,11 +150,20 @@ figcaption {
   font-size: 1rem;
   margin-bottom: 1.65rem;
   font-family: 'Montserrat', sans-serif;
+}
+
+figcaption.numbered:before {
+  font-weight: 700;
+  text-transform: uppercase;
+  content: attr(data-pre) counter(captions) attr(data-post);
+}
+
+figcaption.numbered {
   counter-increment: captions;
 }
 
 figcaption h4 {
-  display: inline-block;
+  display: inline;
   font-size: 1rem;
   font-weight: 400;
   margin: 0;
@@ -208,6 +211,11 @@ blockquote p:last-child {
   }
 }
 
+.markup-quote {
+  background-color: transparent;
+  background-image: linear-gradient(to bottom, rgba(233, 231, 245, 1), rgba(233, 231, 245, 1));
+}
+
 .space-below {
   margin-bottom: 50px;
 }
@@ -232,6 +240,10 @@ blockquote p:last-child {
 small,
 .small {
   font-size: .75em;
+}
+
+.responsive-wrap iframe {
+  max-width: 100%;
 }
 
 /*************************************************
@@ -1463,6 +1475,10 @@ body.dark {
 .dark pre {
   background-color: rgb(68, 71, 90);
   border-color: rgb(68, 71, 90);
+}
+
+.dark .markup-quote {
+  background-image: linear-gradient(to bottom, rgba(233, 231, 245, 0.2), rgba(233, 231, 245, 0.2));
 }
 
 .dark #MathJax_Zoom {
