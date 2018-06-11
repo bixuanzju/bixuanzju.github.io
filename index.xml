@@ -13,18 +13,18 @@
     <item>
       <title>Consistent Subtyping for All (Draft)</title>
       <link>https://bixuanzju.github.io/publication/consistent/</link>
-      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/consistent/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>FCore</title>
-      <link>https://bixuanzju.github.io/project/fcore/</link>
+      <title>GPC</title>
+      <link>https://bixuanzju.github.io/project/gpc/</link>
       <pubDate>Thu, 12 Apr 2018 18:01:43 +0800</pubDate>
       
-      <guid>https://bixuanzju.github.io/project/fcore/</guid>
+      <guid>https://bixuanzju.github.io/project/gpc/</guid>
       <description></description>
     </item>
     
@@ -34,15 +34,6 @@
       <pubDate>Thu, 12 Apr 2018 18:01:43 +0800</pubDate>
       
       <guid>https://bixuanzju.github.io/project/necolus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>category-agda</title>
-      <link>https://bixuanzju.github.io/project/category/</link>
-      <pubDate>Thu, 12 Apr 2018 18:01:43 +0800</pubDate>
-      
-      <guid>https://bixuanzju.github.io/project/category/</guid>
       <description></description>
     </item>
     
@@ -83,6 +74,15 @@
     </item>
     
     <item>
+      <title>category-agda</title>
+      <link>https://bixuanzju.github.io/project/category/</link>
+      <pubDate>Wed, 12 Apr 2017 18:01:43 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/category/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Consistent Subtyping for All</title>
       <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
@@ -97,6 +97,15 @@
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/unifed-syntax/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FCore</title>
+      <link>https://bixuanzju.github.io/project/fcore/</link>
+      <pubDate>Tue, 12 Apr 2016 18:01:43 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/fcore/</guid>
       <description></description>
     </item>
     
