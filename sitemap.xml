@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://bixuanzju.github.io/publication/nested-composition/</loc>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/publication/typed-first-class-traits/</loc>
+      <lastmod>2018-07-19T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://bixuanzju.github.io/publication/consistent/</loc>
       <lastmod>2018-05-15T00:00:00+00:00</lastmod>
     </url>
@@ -41,24 +59,6 @@
     
     <url>
     
-      <loc>https://bixuanzju.github.io/publication/nested-composition/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/publication/typed-first-class-traits/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://bixuanzju.github.io/publication/consistent-subtyping/</loc>
       <lastmod>2018-03-11T00:00:00+00:00</lastmod>
     </url>
@@ -78,7 +78,7 @@
     <url>
     
       <loc>https://bixuanzju.github.io/talk/consistent-subtyping/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -87,7 +87,7 @@
     <url>
     
       <loc>https://bixuanzju.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -96,7 +96,7 @@
     <url>
     
       <loc>https://bixuanzju.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -105,7 +105,25 @@
     <url>
     
       <loc>https://bixuanzju.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/talk/nested/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/talk/traits/</loc>
+      <lastmod>2017-01-01T00:00:00+01:00</lastmod>
     </url>
     
   
@@ -141,7 +159,7 @@
     <url>
     
       <loc>https://bixuanzju.github.io/publication_types/1/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -180,7 +198,7 @@
     <url>
     
       <loc>https://bixuanzju.github.io/publication_types/</loc>
-      <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -199,7 +217,7 @@
     <url>
     
       <loc>https://bixuanzju.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+08:00</lastmod>
+      <lastmod>2016-04-20T00:00:00+02:00</lastmod>
       <priority>0</priority>
     </url>
     
