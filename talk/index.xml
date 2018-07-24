@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - Xuan Bi </copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://bixuanzju.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Consistent Subtyping for All</title>
       <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
       <guid>https://bixuanzju.github.io/talk/consistent-subtyping/</guid>
       <description></description>
@@ -24,7 +24,7 @@
     <item>
       <title>The Essence of Nested Composition</title>
       <link>https://bixuanzju.github.io/talk/nested/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
       <guid>https://bixuanzju.github.io/talk/nested/</guid>
       <description></description>
@@ -33,7 +33,7 @@
     <item>
       <title>Typed First-Class Traits</title>
       <link>https://bixuanzju.github.io/talk/traits/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0800</pubDate>
       
       <guid>https://bixuanzju.github.io/talk/traits/</guid>
       <description></description>
