@@ -2,6 +2,10 @@
 
 
   
+
+  
+
+  
 /*************************************************
  *  Hugo Academic: an academic theme for Hugo.
  *  Designed by @GeorgeCushen.
@@ -11,18 +15,6 @@
 /*************************************************
  *  Core
  **************************************************/
-
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
-
-.row:after,
-.row:before {
-  content: " ";
-  display: table;
-}
 
 html {
   font-family: 'Roboto', sans-serif;
@@ -89,6 +81,7 @@ ul, ol, dl {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  margin-top: 1rem;
   margin-bottom: .5rem;
   line-height: 1.25;
   color: #313131;
@@ -534,12 +527,11 @@ a[data-fancybox] img {
 }
 
 #profile .portrait {
-  background-image: url('../img/portrait.jpg');
   width: 200px;
   height: 200px;
   margin: 0 auto;
   border-radius: 50%;
-  background-size: cover;
+  object-fit: cover;
 }
 
 #profile .portrait-title h2 {
@@ -731,7 +723,7 @@ article .article-metadata {
 }
 
 .article-metadata a {
-  color: #888;
+  color: rgba(0,0,0,.54);
 }
 
 .article-metadata a:hover {
@@ -792,6 +784,39 @@ article .article-metadata {
 }
 
 /*************************************************
+ *  Stream
+ **************************************************/
+
+.media.stream-item {
+  margin-bottom: 2rem;
+}
+
+.media.stream-item .article-title {
+  font-size: 1.2rem;
+}
+
+.media.stream-item .article-style {
+  margin-top: 2px;
+  font-size: 0.8rem;
+}
+
+.media.stream-item .stream-meta {
+  margin-top: 12px;
+}
+
+.media.stream-item img {
+  max-width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .media.stream-item img {
+    max-width: 80px;
+  }
+}
+
+/*************************************************
  *  Publications
  **************************************************/
 
@@ -841,6 +866,52 @@ article .article-metadata {
   display: block;
   position: relative;
   overflow: hidden;
+}
+
+/*************************************************
+ * Experience
+ **************************************************/
+
+.exp-title {
+  text-transform: none !important;
+}
+
+.exp-company {
+  font-weight: normal !important;
+  text-transform: none !important;
+}
+
+.exp-meta {
+  font-size: 0.8rem;
+}
+
+.experience .card-text,
+.experience .card-text p {
+  color: #000 !important;
+  font-size: 0.75rem !important;
+}
+
+.dark .experience .text-muted {
+  color: rgba(255, 255, 255, 0.8) !important;
+}
+
+.dark .experience .card-text,
+.dark .experience .card-text p {
+  color: rgb(248, 248, 242) !important;
+}
+
+.card .card-text ul {
+  margin-top: -1rem;
+  margin-bottom: 0rem;
+}
+
+.experience .m-2 .border,
+.experience .col.border-right {
+  border-color: #0095eb !important;
+}
+
+.experience .m-2 .border.exp-fill {
+  background-color: #0095eb !important;
 }
 
 /*************************************************
@@ -1450,11 +1521,6 @@ table > tbody > tr:hover > th {
  *  Alerts
  **************************************************/
 
-div.alert {
-  border-radius: 10px;
-  margin-bottom: 1rem;
-}
-
 div.alert p {
   position: relative;
   display: block;
@@ -1469,7 +1535,7 @@ div.alert p:first-child::before {
   top: -0.5rem;
   left: -2rem;
   font-size: 1.5rem;
-  color: #fff;
+  color: #209cee;
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
   content: '\f05a';
@@ -1480,33 +1546,27 @@ div.alert p:first-child::before {
 div.alert-warning p:first-child::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
+  color: #ff3860;
   content: '\f071';
 }
 
 div.alert a {
-  color: rgba(255,255,255,0.9);
+  color: currentColor;
   text-decoration: none;
-  border-bottom: solid 1px #e4e4e4;
-  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-}
-
-div.alert a:hover {
-  border-bottom-color: transparent;
-  color: rgba(255,255,255,0.5) !important;
+  border-bottom: solid 1px currentColor;
 }
 
 .alert-note {
-  color: #fff;
-  background-color: #03A9F4; /* Material LightBlue500 */
-  border-color: #bce8f1;
+  color: #12537e;
+  background-color: #f6fbfe;
+  border-color: #209cee;
 }
 
 .alert-warning {
-  color: #fff;
-  background-color: #f44336; /* Material Red500 */
-  border-color: #ebccd1;
+  color: #cd0930;
+  background-color: #fff5f7;
+  border-color: #ff3860;
 }
-
 
 /*************************************************
  *  Documentation layout
@@ -1574,6 +1634,21 @@ div.alert a:hover {
     .docs-sidebar {
       position: -webkit-sticky;
       position: sticky;
+      top: 51px;
+      z-index: 1000;
+      height: calc(100vh - 51px)
+    }
+  }
+}
+
+@media (min-width:1200px) {
+  .docs-sidebar {
+    border-right: 1px solid rgba(0, 0, 0, .1)
+  }
+  @supports ((position:-webkit-sticky) or (position:sticky)) {
+    .docs-sidebar {
+      position: -webkit-sticky;
+      position: sticky;
       top: 71px;
       z-index: 1000;
       height: calc(100vh - 71px)
@@ -1592,7 +1667,7 @@ div.alert a:hover {
 .docs-sidebar .nav>li>a {
   display: block;
   padding: .25rem 1.5rem;
-  font-size: 90%;
+  font-size: 0.8rem;
   color: rgba(0, 0, 0, .65);
 }
 
@@ -1612,6 +1687,13 @@ div.alert a:hover {
 
 /* Docs links. */
 
+.docs-toggle {
+  line-height: 1;
+  font-size: 1.2rem;
+  color: #0095eb;
+  background-color: transparent;
+}
+
 .docs-links {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -1620,7 +1702,7 @@ div.alert a:hover {
 }
 
 @media (min-width:768px) {
-  @supports (position: sticky) {
+  @supports ((position:-webkit-sticky) or (position:sticky)) {
     .docs-links {
       max-height: calc(100vh - 5rem - 71px);
       overflow-y: auto;
@@ -1647,8 +1729,8 @@ div.alert a:hover {
   .docs-toc {
     position: -webkit-sticky;
     position: sticky;
-    top: 4rem;
-    height: calc(100vh - 4rem);
+    top: 71px;
+    height: calc(100vh - 71px);
     overflow-y: auto
   }
 }
@@ -1683,19 +1765,28 @@ div.alert a:hover {
   background-color: transparent;
 }
 
-.docs-toc-item.active>.docs-sidenav {
+.docs-sidenav {
   display: block;
 }
 
 /* Docs TOC nav. */
+
+.docs-toc-title {
+  color: #b5b5b5;
+  font-size: .875rem;
+  font-weight: 600;
+  padding-left: calc(1.5rem + 1px);
+  margin-bottom: .5rem;
+}
 
 #TableOfContents {
   padding-left: 0;
   border-left: 1px solid #eee;
 }
 
-#TableOfContents ul {
-  padding-left: 1rem;
+#TableOfContents ul,
+ul.toc-top {
+  padding-left: 0;
 }
 
 #TableOfContents ul ul {
@@ -1706,13 +1797,16 @@ div.alert a:hover {
   display: block;
 }
 
-#TableOfContents li a {
+#TableOfContents li a,
+.toc-top li a {
   display: block;
   padding: .125rem 1.5rem;
   color: #99979c;
+  font-size: 0.7rem;
 }
 
-#TableOfContents li a:hover {
+#TableOfContents li a:hover,
+.toc-top li a:hover {
   color: #0095eb;
   text-decoration: none;
 }
@@ -1827,8 +1921,7 @@ body.dark,
 }
 
 .dark .card {
-  background: rgb(10, 12, 24);
-  box-shadow: 0 2px 4px 0 rgba(255, 255, 255, 0.2);
+  background: #343a40;
 }
 
 .dark .card h4 a {

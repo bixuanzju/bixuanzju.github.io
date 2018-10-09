@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="generator" content="Source Themes Academic 2.4.0">
-  <meta name="generator" content="Hugo 0.48" />
+  <meta name="generator" content="Hugo 0.49" />
   <meta name="author" content="Xuan Bi 毕旋">
 
   
@@ -22,6 +22,10 @@
 
   
 
+
+  
+
+  
 
   
 
@@ -63,7 +67,7 @@
 
   
   
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  <link rel="stylesheet" href=//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono>
   
 
   <link rel="stylesheet" href="/styles.css">
@@ -104,6 +108,10 @@
   <meta property="og:url" content="https://bixuanzju.github.io/publication/typed-first-class-traits/">
   <meta property="og:title" content="Typed First-Class Traits | Xuan Bi">
   <meta property="og:description" content="Many dynamically typed languages (including JavaScript, Ruby, Python or Racket) support first-class classes, or related concepts such as first-class traits and/or mixins. In those languages classes are first-class values and, like any other values, they can be passed as an argument, or returned from a function. Furthermore first class classes support dynamic inheritance: i.e. they can inherit from other classes at runtime, enabling programmers to abstract over the inheritance hierarchy. In contrast, type system limitations prevent most statically typed languages from having first-class classes and dynamic inheritance. This paper shows the design of SEDEL: a polymorphic statically typed language with first- class traits, supporting dynamic inheritance as well as conventional OO features such as dynamic dispatching and abstract methods. The type system for SEDEL is based on the recent work on disjoint intersection types and disjoint polymorphism. However, such previous work is aimed at core calculi, and omits important features for practical OO languages, including (dynamic) inheritance, dynamic dispatching and abstract methods. This paper addresses that gap by showing how to model source language constructs for traits that support such missing features. Inspired by Cook’s work on the denotational semantics for inheritance, we show how to design a source language that can be elaborated into Alpuim et al.&#39;s Fi which is a polymorphic calculus with records supporting disjoint polymorphism. We illustrate the applicability of SEDEL with several example uses for first-class traits, and a case study that modularizes programming language interpreters using a highly modular form of visitors.">
+  
+  
+    
+  <meta property="og:image" content="https://bixuanzju.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-07-19T00:00:00&#43;00:00">
@@ -118,7 +126,7 @@
   <title>Typed First-Class Traits | Xuan Bi</title>
 
 </head>
-<body id="top" data-spy="scroll" data-target="#toc" data-offset="71" >
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
 
 <nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
   <div class="container">
@@ -253,9 +261,12 @@
 
         
         
-      
 
       
+
+        
+
+        
       </ul>
 
     </div>
@@ -265,6 +276,9 @@
 <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
+
+
+
 
 
   <div class="article-container">
@@ -294,7 +308,7 @@
           <div class="col-12 col-md-3 pub-row-heading">Type</div>
           <div class="col-12 col-md-9">
             
-            <a href="https://bixuanzju.github.io/publication/#1">
+            <a href="/publication/#1">
               Conference paper
             </a>
             
@@ -358,7 +372,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="https://bixuanzju.github.io/project/sedel/">
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/sedel/">
     Project
   </a>
   
@@ -366,9 +380,10 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://bixuanzju.github.io/files/traits.pptx" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/traits.pptx" target="_blank" rel="noopener">
   Slides
 </a>
+
 
 
 
@@ -405,6 +420,7 @@
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
     <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
 
+    
     <span class="float-right" aria-hidden="true">
       <a href="#" id="back_to_top">
         <span class="button_icon">
@@ -412,6 +428,7 @@
         </span>
       </a>
     </span>
+    
   </p>
 </footer>
 
@@ -516,16 +533,6 @@
 
     
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
-    
-
-    
-    
-
-    
-    
     <script id="search-hit-fuse-template" type="text/x-template">
       <div class="search-hit" id="summary-{{key}}">
       <div class="search-hit-content">
@@ -537,6 +544,16 @@
       </div>
       </div>
     </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    <script src="/js/search.js"></script>
+    
+
+    
     
 
   </body>
