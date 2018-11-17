@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 2.4.0">
-  <meta name="generator" content="Hugo 0.50" />
+  <meta name="generator" content="Source Themes Academic 3.1.1">
+  <meta name="generator" content="Hugo 0.51" />
   <meta name="author" content="Xuan Bi 毕旋">
 
   
@@ -32,7 +32,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="#795548">
   
 
   
@@ -106,7 +106,7 @@
   
   <meta property="og:site_name" content="Xuan Bi">
   <meta property="og:url" content="https://bixuanzju.github.io/publication/consistent/">
-  <meta property="og:title" content="Consistent Subtyping for All (Draft) | Xuan Bi">
+  <meta property="og:title" content="Consistent Subtyping for All | Xuan Bi">
   <meta property="og:description" content="Consistent subtyping is employed in some gradual type systems to validate type conversions. The original definition by Siek and Taha serves as a guideline for designing gradual type systems with subtyping. Polymorphic types à la System F also induce a subtyping relation that relates polymorphic types to their instantiations. However Siek and Taha&#39;s definition is not adequate for polymorphic subtyping. The first goal of this paper is to propose a generalization of consistent subtyping that is adequate for polymorphic subtyping, and subsumes the original definition by Siek and Taha. The new definition of consistent subtyping provides novel insights with respect to previous polymorphic gradual type systems, which did not employ consistent subtyping. The second goal of this paper is to present a gradually typed calculus for implicit (higher-rank) polymorphism that uses our new notion of consistent subtyping. We develop both declarative and (bidirectional) algorithmic versions for the type system. The algorithmic version employs techniques developed by Dunfield and Krishnaswami to deal with instantiation. We prove that the new calculus satisfies all static aspects of the refined criteria for gradual typing. We also study an extension of the type system with static and gradual type parameters, in an attempt to support a variant of the dynamic criterion for gradual typing. Armed with a coherence conjecture for the extended calculus, we show that the dynamic gradual guarantee of our source language can be reduced to that of λB, which, at the time of writing, is still an open question. Most of the metatheory of this paper, except some manual proofs for the algorithmic type system and extensions, has been mechanically formalized using the Coq proof assistant.">
   
   
@@ -114,16 +114,16 @@
   <meta property="og:image" content="https://bixuanzju.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-05-15T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-10-15T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-06-11T09:13:07&#43;08:00">
-  
-
+  <meta property="article:modified_time" content="2018-11-17T21:19:13&#43;08:00">
   
 
   
 
-  <title>Consistent Subtyping for All (Draft) | Xuan Bi</title>
+  
+
+  <title>Consistent Subtyping for All | Xuan Bi</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -294,7 +294,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Consistent Subtyping for All (Draft)</h1>
+  <h1 itemprop="name">Consistent Subtyping for All</h1>
 
   
 
@@ -307,19 +307,15 @@
   
   
   <div>
-    
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Ningning Xie</span>
     </span>, 
-    
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">**Xuan Bi**</span>
+      <span itemprop="name"><strong>Xuan Bi</strong></span>
     </span>, 
-    
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Bruno C. d. S. Oliveira</span>
     </span>, 
-    
     <span itemscope itemprop="author" itemtype="http://schema.org/Person">
       <span itemprop="name">Tom Schrijvers</span>
     </span>
@@ -331,20 +327,15 @@
     
         Last updated on
     
-    <meta content="2018-05-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-    <time datetime="2018-06-11 09:13:07 &#43;0800 HKT" itemprop="dateModified">
-      Jun 11, 2018
+    <meta content="2018-10-15 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2018-11-17 21:19:13 &#43;0800 HKT" itemprop="dateModified">
+      Nov 17, 2018
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
     <meta itemprop="name" content="Xuan Bi 毕旋">
   </span>
 
-  
-  <span class="middot-divider"></span>
-  <span class="article-reading-time">
-    0 min read
-  </span>
   
 
   
@@ -358,6 +349,66 @@
   
 
 </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/toplas.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/gpc/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
 
   
 </div>
@@ -397,7 +448,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">Invited submission to <em>Transactions on Programming Languages and Systems</em>.</div>
+          <div class="col-12 col-md-9">Submitted to <em>Transactions on Programming Languages and Systems</em>.</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -411,60 +462,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            2018-05-15
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-sm-none space-below"></div>
-
-    <div class="row" style="padding-top: 10px">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading" style="line-height:34px;">Links</div>
-          <div class="col-12 col-md-9">
-
-            
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/files/toplas.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/gpc/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-
+            2018-10-15
           </div>
         </div>
       </div>
@@ -477,6 +475,17 @@
     <div class="article-style"></div>
 
     
+
+    
+
+
+
+  
+
+
+
+
+
 
 
   </div>
@@ -539,14 +548,8 @@
 
     
     
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        CommonHTML: { linebreaks: { automatic: true } },
-        tex2jax: { inlineMath: [ ['$', '$'], ['\\(','\\)'] ], displayMath: [ ['$$','$$'], ['\\[', '\\]'] ], processEscapes: false },
-        TeX: { noUndefined: { attributes: { mathcolor: 'red', mathbackground: '#FFEEEE', mathsize: '90%' } } },
-        messageStyle: 'none'
-      });
-    </script>
+    
+    <script src="/js/mathjax-config.js"></script>
     
 
     
@@ -568,9 +571,6 @@
       
       <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
-    
-
-    <script src="/js/hugo-academic.js"></script>
     
 
     
@@ -625,10 +625,21 @@
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
-    <script src="/js/search.js"></script>
     
 
     
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.2861db6bcf2db4b5eade32c795453e47.js"></script>
+
     
 
   </body>

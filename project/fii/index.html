@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Calculi with disjoint intersection types support an introduction form for intersections called the merge operator, while retaining a coherent semantics. Disjoint intersections types have great potential to serve as a foundation for powerful, flexible and yet type-safe and easy to reason OO languages. This paper shows how to significantly increase the expressive power of disjoint intersection types by adding support for nested subtyping and composition, which enables simple forms of family polymorphism to be expressed in the calculus. The extension with nested sub- typing and composition is challenging, for two different reasons. Firstly, the subtyping relation that supports these features is non-trivial, especially when it comes to obtaining an algorithmic version. Secondly, the syntactic method used to prove coherence for previous calculi with disjoint intersection types is too inflexible, making it hard to extend those calculi with new features (such as nested subtyping). We show how to address the first problem by adapting and extending the Barendregt, Coppo and Dezani (BCD) subtyping rules for intersections with records and coercions. A sound and complete algorithmic system is obtained by using an approach inspired by Pierce’s work. To address the second problem we replace the syntactic method to prove coherence, by a semantic proof method based on logical relations. Our work has been fully formalized in Coq, and we have an implementation of our calculus.">
+  <meta name="description" content="Coq formalization and implementation of the Fi&#43; calculus">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://bixuanzju.github.io/talk/nested/">
+  <link rel="alternate" hreflang="en-us" href="https://bixuanzju.github.io/project/fii/">
 
   
 
@@ -100,30 +100,30 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://bixuanzju.github.io/talk/nested/">
+  <link rel="canonical" href="https://bixuanzju.github.io/project/fii/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Xuan Bi">
-  <meta property="og:url" content="https://bixuanzju.github.io/talk/nested/">
-  <meta property="og:title" content="The Essence of Nested Composition | Xuan Bi">
-  <meta property="og:description" content="Calculi with disjoint intersection types support an introduction form for intersections called the merge operator, while retaining a coherent semantics. Disjoint intersections types have great potential to serve as a foundation for powerful, flexible and yet type-safe and easy to reason OO languages. This paper shows how to significantly increase the expressive power of disjoint intersection types by adding support for nested subtyping and composition, which enables simple forms of family polymorphism to be expressed in the calculus. The extension with nested sub- typing and composition is challenging, for two different reasons. Firstly, the subtyping relation that supports these features is non-trivial, especially when it comes to obtaining an algorithmic version. Secondly, the syntactic method used to prove coherence for previous calculi with disjoint intersection types is too inflexible, making it hard to extend those calculi with new features (such as nested subtyping). We show how to address the first problem by adapting and extending the Barendregt, Coppo and Dezani (BCD) subtyping rules for intersections with records and coercions. A sound and complete algorithmic system is obtained by using an approach inspired by Pierce’s work. To address the second problem we replace the syntactic method to prove coherence, by a semantic proof method based on logical relations. Our work has been fully formalized in Coq, and we have an implementation of our calculus.">
+  <meta property="og:url" content="https://bixuanzju.github.io/project/fii/">
+  <meta property="og:title" content="Fi&#43; | Xuan Bi">
+  <meta property="og:description" content="Coq formalization and implementation of the Fi&#43; calculus">
   
   
     
   <meta property="og:image" content="https://bixuanzju.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-01-01T00:00:00&#43;08:00">
+  <meta property="article:published_time" content="2018-11-17T18:01:43&#43;08:00">
   
-  <meta property="article:modified_time" content="2018-07-31T11:58:40&#43;08:00">
-  
-
+  <meta property="article:modified_time" content="2018-11-17T21:19:13&#43;08:00">
   
 
   
 
-  <title>The Essence of Nested Composition | Xuan Bi</title>
+  
+
+  <title>Fi&#43; | Xuan Bi</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -273,7 +273,8 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
 
@@ -294,7 +295,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">The Essence of Nested Composition</h1>
+  <h1 itemprop="name">Fi&#43;</h1>
 
   
 
@@ -314,9 +315,9 @@
     
         Last updated on
     
-    <meta content="2017-01-01 00:00:00 &#43;0800 HKT" itemprop="datePublished">
-    <time datetime="2018-07-31 11:58:40 &#43;0800 HKT" itemprop="dateModified">
-      Jul 31, 2018
+    <meta content="2018-11-17 18:01:43 &#43;0800 HKT" itemprop="datePublished">
+    <time datetime="2018-11-17 21:19:13 &#43;0800 HKT" itemprop="dateModified">
+      Nov 17, 2018
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -354,6 +355,8 @@
 
 <div class="btn-links mb-3">
   
+  <a class="btn btn-outline-primary my-1" href="https://github.com/bixuanzju/ESOP2019-artifact" target="_blank" rel="noopener">Go to Project Site</a>
+  
   
 
 
@@ -372,23 +375,9 @@
 
 
 
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/necolus/">
-    Project
-  </a>
-  
 
 
 
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/talk/files/nested.pptx" target="_blank" rel="noopener">
-  Slides
-</a>
 
 
 
@@ -406,71 +395,14 @@
 
   <div class="article-container">
 
-    
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">Calculi with disjoint intersection types support an introduction form for intersections called the merge operator, while retaining a coherent semantics. Disjoint intersections types have great potential to serve as a foundation for powerful, flexible and yet type-safe and easy to reason OO languages. This paper shows how to significantly increase the expressive power of disjoint intersection types by adding support for nested subtyping and composition, which enables simple forms of family polymorphism to be expressed in the calculus. The extension with nested sub- typing and composition is challenging, for two different reasons. Firstly, the subtyping relation that supports these features is non-trivial, especially when it comes to obtaining an algorithmic version. Secondly, the syntactic method used to prove coherence for previous calculi with disjoint intersection types is too inflexible, making it hard to extend those calculi with new features (such as nested subtyping). We show how to address the first problem by adapting and extending the Barendregt, Coppo and Dezani (BCD) subtyping rules for intersections with records and coercions. A sound and complete algorithmic system is obtained by using an approach inspired by Pierce’s work. To address the second problem we replace the syntactic method to prove coherence, by a semantic proof method based on logical relations. Our work has been fully formalized in Coq, and we have an implementation of our calculus.</p>
-    
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Date</div>
-          <div class="col-12 col-md-9" itemprop="datePublished">
-            
-            Jul 20, 2018
-            <div class="talk-time">
-              
-                4:50 PM
-                
-                  &mdash; 5:15 PM
-                
-              
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            <a href="https://2018.ecoop.org/home" target="_blank" rel="noopener">
-            European Conference on Object-Oriented Programming
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Amsterdam, Netherlands</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style">
+    <div class="article-style" itemprop="articleBody">
       
     </div>
 
     
+
+
+
 
     
 
@@ -541,8 +473,111 @@
 
 
 
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+      
+      
+      
+
+      
+      
+      
+      
+        <h2>Publications</h2>
+        
+          
+            <div class="media stream-item" itemscope itemtype="http://schema.org/Event">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0" itemprop="name">
+      <a href="/publication/fii/" itemprop="url">Distributive Disjoint Polymorphism for Compositional Programming</a>
+    </h3>
+
+    
+    
+      
+    
+    
+    <div class="article-style" itemprop="articleBody">
+      Popular programming techniques such as shallow embeddings of Domain Specific Languages (DSLs), finally tagless or object algebras are …
+    </div>
+    
+
+    <div class="stream-meta article-metadata">
+      <div itemprop="author">
+        <strong>Xuan Bi</strong>, Ningning Xie, Bruno C. d. S. Oliveira, Tom Schrijvers</div>
+    </div>
+
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/ESOP2019.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/fii/">
+    Project
+  </a>
+  
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+  </div>
+  <div class="ml-3">
+    
+    
   </div>
 </div>
+
+          
+        
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
 
 
 
@@ -601,9 +636,6 @@
 
     
     
-    
-    <script src="/js/mathjax-config.js"></script>
-    
 
     
     
@@ -621,8 +653,6 @@
       
 
       
-      
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
       
     
 

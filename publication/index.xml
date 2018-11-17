@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Distributive Disjoint Polymorphism for Compositional Programming</title>
+      <link>https://bixuanzju.github.io/publication/fii/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/fii/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/publication/consistent/</link>
+      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/consistent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>The Essence of Nested Composition</title>
       <link>https://bixuanzju.github.io/publication/nested-composition/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
@@ -27,15 +45,6 @@
       <pubDate>Thu, 19 Jul 2018 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/typed-first-class-traits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Consistent Subtyping for All (Draft)</title>
-      <link>https://bixuanzju.github.io/publication/consistent/</link>
-      <pubDate>Tue, 15 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bixuanzju.github.io/publication/consistent/</guid>
       <description></description>
     </item>
     

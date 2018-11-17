@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018 - Xuan Bi </copyright>
-    <lastBuildDate>Fri, 20 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 17 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://bixuanzju.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Distributive Disjoint Polymorphism for Compositional Programming</title>
+      <link>https://bixuanzju.github.io/publication/fii/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/fii/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>The Essence of Nested Composition</title>

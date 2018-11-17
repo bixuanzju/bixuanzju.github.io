@@ -15,10 +15,10 @@
   
     
   
-  <meta name="description" content="Calculi with disjoint intersection types support an introduction form for intersections called the merge operator, while retaining a coherent semantics. Disjoint intersections types have great potential to serve as a foundation for powerful, flexible and yet type-safe and easy to reason OO languages. This paper shows how to significantly increase the expressive power of disjoint intersection types by adding support for nested subtyping and composition, which enables simple forms of family polymorphism to be expressed in the calculus. The extension with nested sub- typing and composition is challenging, for two different reasons. Firstly, the subtyping relation that supports these features is non-trivial, especially when it comes to obtaining an algorithmic version. Secondly, the syntactic method used to prove coherence for previous calculi with disjoint intersection types is too inflexible, making it hard to extend those calculi with new features (such as nested subtyping). We show how to address the first problem by adapting and extending the Barendregt, Coppo and Dezani (BCD) subtyping rules for intersections with records and coercions. A sound and complete algorithmic system is obtained by using an approach inspired by Pierce’s work. To address the second problem we replace the syntactic method to prove coherence, by a semantic proof method based on logical relations. Our work has been fully formalized in Coq, and we have an implementation of our calculus.">
+  <meta name="description" content="Popular programming techniques such as shallow embeddings of Domain Specific Languages (DSLs), finally tagless or object algebras are built on the principle of compositionality. However, existing programming languages only support simple compositional designs well, and have limited support for more sophisticated ones. This paper presents the F&#43;i calculus, which supports highly modular and compositional designs that improve on existing techniques. These improvements are due to the combination of three features: disjoint intersection types with a merge operator; parametric (disjoint) polymorphism; and BCD-style distributive subtyping. The main technical challenge is F&#43;i&#39;s proof of coherence. A naive adaptation of ideas used in System F&#39;s parametricity to canonicity (the logical relation used by F&#43;i to prove coherence) results in an ill-founded logical relation. To solve the problem our canonicity relation employs a different technique based on immediate substitutions and a restriction to predicative instantiations. Besides coherence, we show several other important meta-theoretical results, such as type-safety, sound and complete algorithmic subtyping, and decidability of the type system. Remarkably, unlike F&lt;:&#39;s bounded polymorphism, disjoint polymorphism in F&#43;i supports decidable type-checking.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://bixuanzju.github.io/talk/nested/">
+  <link rel="alternate" hreflang="en-us" href="https://bixuanzju.github.io/publication/fii/">
 
   
 
@@ -100,30 +100,30 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://bixuanzju.github.io/talk/nested/">
+  <link rel="canonical" href="https://bixuanzju.github.io/publication/fii/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Xuan Bi">
-  <meta property="og:url" content="https://bixuanzju.github.io/talk/nested/">
-  <meta property="og:title" content="The Essence of Nested Composition | Xuan Bi">
-  <meta property="og:description" content="Calculi with disjoint intersection types support an introduction form for intersections called the merge operator, while retaining a coherent semantics. Disjoint intersections types have great potential to serve as a foundation for powerful, flexible and yet type-safe and easy to reason OO languages. This paper shows how to significantly increase the expressive power of disjoint intersection types by adding support for nested subtyping and composition, which enables simple forms of family polymorphism to be expressed in the calculus. The extension with nested sub- typing and composition is challenging, for two different reasons. Firstly, the subtyping relation that supports these features is non-trivial, especially when it comes to obtaining an algorithmic version. Secondly, the syntactic method used to prove coherence for previous calculi with disjoint intersection types is too inflexible, making it hard to extend those calculi with new features (such as nested subtyping). We show how to address the first problem by adapting and extending the Barendregt, Coppo and Dezani (BCD) subtyping rules for intersections with records and coercions. A sound and complete algorithmic system is obtained by using an approach inspired by Pierce’s work. To address the second problem we replace the syntactic method to prove coherence, by a semantic proof method based on logical relations. Our work has been fully formalized in Coq, and we have an implementation of our calculus.">
+  <meta property="og:url" content="https://bixuanzju.github.io/publication/fii/">
+  <meta property="og:title" content="Distributive Disjoint Polymorphism for Compositional Programming | Xuan Bi">
+  <meta property="og:description" content="Popular programming techniques such as shallow embeddings of Domain Specific Languages (DSLs), finally tagless or object algebras are built on the principle of compositionality. However, existing programming languages only support simple compositional designs well, and have limited support for more sophisticated ones. This paper presents the F&#43;i calculus, which supports highly modular and compositional designs that improve on existing techniques. These improvements are due to the combination of three features: disjoint intersection types with a merge operator; parametric (disjoint) polymorphism; and BCD-style distributive subtyping. The main technical challenge is F&#43;i&#39;s proof of coherence. A naive adaptation of ideas used in System F&#39;s parametricity to canonicity (the logical relation used by F&#43;i to prove coherence) results in an ill-founded logical relation. To solve the problem our canonicity relation employs a different technique based on immediate substitutions and a restriction to predicative instantiations. Besides coherence, we show several other important meta-theoretical results, such as type-safety, sound and complete algorithmic subtyping, and decidability of the type system. Remarkably, unlike F&lt;:&#39;s bounded polymorphism, disjoint polymorphism in F&#43;i supports decidable type-checking.">
   
   
     
   <meta property="og:image" content="https://bixuanzju.github.io/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-01-01T00:00:00&#43;08:00">
+  <meta property="article:published_time" content="2018-11-17T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-07-31T11:58:40&#43;08:00">
-  
-
+  <meta property="article:modified_time" content="2018-11-17T21:19:13&#43;08:00">
   
 
   
 
-  <title>The Essence of Nested Composition | Xuan Bi</title>
+  
+
+  <title>Distributive Disjoint Polymorphism for Compositional Programming | Xuan Bi</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -273,7 +273,7 @@
   </div>
 </nav>
 
-<div class="pub" itemscope itemtype="http://schema.org/Event">
+<div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -294,7 +294,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">The Essence of Nested Composition</h1>
+  <h1 itemprop="name">Distributive Disjoint Polymorphism for Compositional Programming</h1>
 
   
 
@@ -305,18 +305,31 @@
 
   
   
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="Xuan Bi 毕旋">
-  </span>
+  
+  <div>
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name"><strong>Xuan Bi</strong></span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Ningning Xie</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Bruno C. d. S. Oliveira</span>
+    </span>, 
+    <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+      <span itemprop="name">Tom Schrijvers</span>
+    </span>
+    
+  </div>
   
 
   <span class="article-date">
     
         Last updated on
     
-    <meta content="2017-01-01 00:00:00 &#43;0800 HKT" itemprop="datePublished">
-    <time datetime="2018-07-31 11:58:40 &#43;0800 HKT" itemprop="dateModified">
-      Jul 31, 2018
+    <meta content="2018-11-17 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2018-11-17 21:19:13 &#43;0800 HKT" itemprop="dateModified">
+      Nov 17, 2018
     </time>
   </span>
   <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
@@ -364,7 +377,13 @@
 
 
   
+    
+  
 
+
+<a class="btn btn-outline-primary my-1 mr-1" href="/files/ESOP2019.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
@@ -373,7 +392,7 @@
 
 
   
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/necolus/">
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/fii/">
     Project
   </a>
   
@@ -381,14 +400,6 @@
 
 
 
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/talk/files/nested.pptx" target="_blank" rel="noopener">
-  Slides
-</a>
 
 
 
@@ -407,8 +418,42 @@
   <div class="article-container">
 
     
-      <h3>Abstract</h3>
-      <p class="pub-abstract" itemprop="text">Calculi with disjoint intersection types support an introduction form for intersections called the merge operator, while retaining a coherent semantics. Disjoint intersections types have great potential to serve as a foundation for powerful, flexible and yet type-safe and easy to reason OO languages. This paper shows how to significantly increase the expressive power of disjoint intersection types by adding support for nested subtyping and composition, which enables simple forms of family polymorphism to be expressed in the calculus. The extension with nested sub- typing and composition is challenging, for two different reasons. Firstly, the subtyping relation that supports these features is non-trivial, especially when it comes to obtaining an algorithmic version. Secondly, the syntactic method used to prove coherence for previous calculi with disjoint intersection types is too inflexible, making it hard to extend those calculi with new features (such as nested subtyping). We show how to address the first problem by adapting and extending the Barendregt, Coppo and Dezani (BCD) subtyping rules for intersections with records and coercions. A sound and complete algorithmic system is obtained by using an approach inspired by Pierce’s work. To address the second problem we replace the syntactic method to prove coherence, by a semantic proof method based on logical relations. Our work has been fully formalized in Coq, and we have an implementation of our calculus.</p>
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Popular programming techniques such as shallow embeddings of Domain Specific Languages (DSLs), finally tagless or object algebras are built on the principle of compositionality. However, existing programming languages only support simple compositional designs well, and have limited support for more sophisticated ones. This paper presents the F+i calculus, which supports highly modular and compositional designs that improve on existing techniques. These improvements are due to the combination of three features: disjoint intersection types with a merge operator; parametric (disjoint) polymorphism; and BCD-style distributive subtyping. The main technical challenge is F+i&rsquo;s proof of coherence. A naive adaptation of ideas used in System F&rsquo;s parametricity to canonicity (the logical relation used by F+i to prove coherence) results in an ill-founded logical relation. To solve the problem our canonicity relation employs a different technique based on immediate substitutions and a restriction to predicative instantiations. Besides coherence, we show several other important meta-theoretical results, such as type-safety, sound and complete algorithmic subtyping, and decidability of the type system. Remarkably, unlike F&lt;:&rsquo;s bounded polymorphism, disjoint polymorphism in F+i supports decidable type-checking.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            <a href="/publication/#1">
+              Conference paper
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Submitted to <em>European Symposium on Programming</em>.</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
     
 
     <div class="row">
@@ -417,58 +462,17 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            
-            Jul 20, 2018
-            <div class="talk-time">
-              
-                4:50 PM
-                
-                  &mdash; 5:15 PM
-                
-              
-            </div>
+            2018-11-17
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
     </div>
-    <div class="d-md-none space-below"></div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Event</div>
-          <div class="col-12 col-md-9">
-            <a href="https://2018.ecoop.org/home" target="_blank" rel="noopener">
-            European Conference on Object-Oriented Programming
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Location</div>
-          <div class="col-12 col-md-9">Amsterdam, Netherlands</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
+    <div class="d-sm-none space-below"></div>
 
     <div class="space-below"></div>
 
-    <div class="article-style">
-      
-    </div>
+    <div class="article-style"></div>
 
     
 
@@ -476,67 +480,10 @@
 
 
 
-
-
-
-<div class="media author-card" itemscope itemtype="http://schema.org/Person">
   
-  <div class="media-body">
-    <h5 class="card-title" itemprop="name"><a href="/">Xuan Bi 毕旋</a></h5>
-    <h6 class="card-subtitle">PhD candidate</h6>
-    
-    <ul class="network-icon" aria-hidden="true">
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="https://scholar.google.com/citations?user=DWmjFJmEW54C&amp;hl=en" target="_blank" rel="noopener">
-          <i class="ai ai-google-scholar"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-        
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="//github.com/bixuanzju" >
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-      
-      
-      
-      
-      
-      
-      
-      
-        
-      
-      <li>
-        <a itemprop="sameAs" href="/files/cv.pdf" >
-          <i class="ai ai-cv"></i>
-        </a>
-      </li>
-      
-    </ul>
-  </div>
-</div>
+
+
+
 
 
 
