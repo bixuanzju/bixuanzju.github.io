@@ -18,7 +18,8 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://bixuanzju.github.io/home/about/</guid>
-      <description>About Me I am a PhD candidate at HKU PL Group advised by Dr. Bruno C. d. S. Oliveira. My research interests are centered around programming languages, type systems and formal verification.
+      <description>About Me I will be joining Standard Chartered as a quantitative developer next year!
+I am a PhD candidate at HKU PL Group advised by Dr. Bruno C. d. S. Oliveira. My research interests are centered around programming languages, type systems and formal verification.
 In the past, I have worked on a JVM implementation of System F with support for full tail-call elimination. See our paper for more. I have worked on the design of a dependently-typed calculus featuring general recursion and decidable type-checking.</description>
     </item>
     
