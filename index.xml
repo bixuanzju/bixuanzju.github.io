@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Disjoint Intersection Types: Theory and Practice</title>
+      <link>https://bixuanzju.github.io/publication/thesis/</link>
+      <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/thesis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Fi&#43;</title>
       <link>https://bixuanzju.github.io/project/fii/</link>
       <pubDate>Sat, 17 Nov 2018 18:01:43 +0800</pubDate>
@@ -133,15 +142,6 @@
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/unifed-syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FCore</title>
-      <link>https://bixuanzju.github.io/project/fcore/</link>
-      <pubDate>Tue, 12 Apr 2016 18:01:43 +0800</pubDate>
-      
-      <guid>https://bixuanzju.github.io/project/fcore/</guid>
       <description></description>
     </item>
     
