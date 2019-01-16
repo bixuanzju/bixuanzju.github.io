@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/publication/consistent/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/consistent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Disjoint Intersection Types: Theory and Practice</title>
       <link>https://bixuanzju.github.io/publication/thesis/</link>
       <pubDate>Thu, 13 Dec 2018 00:00:00 +0000</pubDate>
@@ -34,15 +43,6 @@
       <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/fii/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Consistent Subtyping for All</title>
-      <link>https://bixuanzju.github.io/publication/consistent/</link>
-      <pubDate>Mon, 15 Oct 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://bixuanzju.github.io/publication/consistent/</guid>
       <description></description>
     </item>
     
