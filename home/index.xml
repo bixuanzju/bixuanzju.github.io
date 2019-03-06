@@ -18,9 +18,9 @@
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
       
       <guid>https://bixuanzju.github.io/home/about/</guid>
-      <description>Biography I will be joining Standard Chartered as a quantitative developer this Spring!
+      <description>Biography I am currently a quantitative developer at Standard Chartered.
 I got my PhD in Computer Science from HKU PL Group advised by Dr. Bruno C. d. S. Oliveira. Here is my PhD thesis. My research fields were programming languages, type systems and formal verification.
-During my PhD studies, I worked on a JVM implementation of System F with support for full tail-call elimination (see this paper for more).</description>
+During my PhD studies, I worked on a JVM implementation of System F with support for full tail-call elimination (see this paper for more). I worked on the design of a dependently-typed calculus featuring general recursion and decidable type-checking (see this paper for more).</description>
     </item>
     
     <item>
