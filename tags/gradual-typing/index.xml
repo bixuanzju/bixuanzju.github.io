@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gradual-typing on Xuan Bi</title>
+    <link>https://bixuanzju.github.io/tags/gradual-typing/</link>
+    <description>Recent content in gradual-typing on Xuan Bi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 22:34:18 +0800</lastBuildDate>
+    
+	<atom:link href="https://bixuanzju.github.io/tags/gradual-typing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GPC</title>
+      <link>https://bixuanzju.github.io/project/gpc/</link>
+      <pubDate>Wed, 06 Mar 2019 22:34:18 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/gpc/</guid>
+      <description>Haskell implementation of Gradually Polymorphic Calculus</description>
+    </item>
+    
+    <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/publication/xie-2019-toplas/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/xie-2019-toplas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
+      <pubDate>Mon, 16 Apr 2018 10:30:00 +0200</pubDate>
+      
+      <guid>https://bixuanzju.github.io/talk/consistent-subtyping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/publication/xie-2018-consistent/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/xie-2018-consistent/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Xuan Bi</title>
+    <link>https://bixuanzju.github.io/authors/admin/</link>
+    <description>Recent content in admin on Xuan Bi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
+    
+	<atom:link href="https://bixuanzju.github.io/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://bixuanzju.github.io/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/author/admin/</guid>
+      <description>I am currently a quantitative developer at Standard Chartered.
+I got my PhD in Computer Science from HKU PL Group advised by Dr. Bruno C. d. S. Oliveira. My research fields were programming languages, type systems and formal verification.
+During my PhD studies, I worked on a JVM implementation of System F with support for full tail-call elimination (see this paper for more). I worked on the design of a dependently-typed calculus featuring general recursion and decidable type-checking (see this paper for more).</description>
+    </item>
+    
+  </channel>
+</rss>

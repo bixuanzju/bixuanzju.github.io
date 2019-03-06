@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>type-system on Xuan Bi</title>
+    <link>https://bixuanzju.github.io/tags/type-system/</link>
+    <description>Recent content in type-system on Xuan Bi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 22:47:04 +0800</lastBuildDate>
+    
+	<atom:link href="https://bixuanzju.github.io/tags/type-system/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FCore</title>
+      <link>https://bixuanzju.github.io/project/fcore/</link>
+      <pubDate>Wed, 06 Mar 2019 22:47:04 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/fcore/</guid>
+      <description>Research middleware compiler from System F-based languages to Java with the Imperative Functional Object encoding</description>
+    </item>
+    
+    <item>
+      <title>Fi&#43;</title>
+      <link>https://bixuanzju.github.io/project/fii/</link>
+      <pubDate>Wed, 06 Mar 2019 22:42:47 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/fii/</guid>
+      <description>Coq formalization and implementation of the Fi+ calculus</description>
+    </item>
+    
+    <item>
+      <title>SEDEL</title>
+      <link>https://bixuanzju.github.io/project/sedel/</link>
+      <pubDate>Wed, 06 Mar 2019 22:38:27 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/sedel/</guid>
+      <description>Haskell implementation of a type system for first-class traits</description>
+    </item>
+    
+    <item>
+      <title>Distributive Disjoint Polymorphism for Compositional Programming</title>
+      <link>https://bixuanzju.github.io/publication/bi-2019-dis/</link>
+      <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/bi-2019-dis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/publication/xie-2019-toplas/</link>
+      <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/xie-2019-toplas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Essence of Nested Composition</title>
+      <link>https://bixuanzju.github.io/talk/nested/</link>
+      <pubDate>Fri, 20 Jul 2018 16:50:00 +0100</pubDate>
+      
+      <guid>https://bixuanzju.github.io/talk/nested/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Essence of Nested Composition</title>
+      <link>https://bixuanzju.github.io/publication/bi-2018-essence/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/bi-2018-essence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typed First-Class Traits</title>
+      <link>https://bixuanzju.github.io/publication/bi-2018-typed/</link>
+      <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/bi-2018-typed/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Typed First-Class Traits</title>
+      <link>https://bixuanzju.github.io/talk/traits/</link>
+      <pubDate>Thu, 19 Jul 2018 16:00:00 +0100</pubDate>
+      
+      <guid>https://bixuanzju.github.io/talk/traits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
+      <pubDate>Mon, 16 Apr 2018 10:30:00 +0200</pubDate>
+      
+      <guid>https://bixuanzju.github.io/talk/consistent-subtyping/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Consistent Subtyping for All</title>
+      <link>https://bixuanzju.github.io/publication/xie-2018-consistent/</link>
+      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/xie-2018-consistent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unified Syntax with Iso-Types</title>
+      <link>https://bixuanzju.github.io/publication/yang-2016-unified/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/yang-2016-unified/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Memory-efficient Tail Calls in the JVM with Imperative Functional Objects</title>
+      <link>https://bixuanzju.github.io/publication/tauber-2015-memory/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/tauber-2015-memory/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -7,81 +7,136 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
-    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0800</lastBuildDate>
     
 	<atom:link href="https://bixuanzju.github.io/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
+      <link>https://bixuanzju.github.io/home/slider/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/slider/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Academic</title>
+      <link>https://bixuanzju.github.io/home/hero/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/hero/</guid>
+      <description>The Best Way to Create the Website You Want from Markdown (or RStudio/Jupyter)
+Build Anything with Widgets
+Star</description>
+    </item>
+    
+    <item>
+      <title>Academic Kickstart</title>
+      <link>https://bixuanzju.github.io/home/demo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/demo/</guid>
+      <description>Welcome to the Academic Kickstart template!
+Follow our Getting Started and Page Builder guides to easily personalize the template and then add your own content.
+For inspiration, check out the Markdown files which power the personal demo. The easiest way to publish your new site to the internet is with Netlify.
+ View the documentation Ask a question Request a feature or report a bug Updating? View the Update Guide and Release Notes Support development of Academic:  Donate a coffee Become a backer on Patreon Decorate your laptop or journal with an Academic sticker Wear the T-shirt    This homepage section is an example of adding elements to the Blank widget.</description>
+    </item>
+    
+    <item>
+      <title>Biography</title>
       <link>https://bixuanzju.github.io/home/about/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/home/about/</guid>
-      <description>Biography I am currently a quantitative developer at Standard Chartered.
-I got my PhD in Computer Science from HKU PL Group advised by Dr. Bruno C. d. S. Oliveira. Here is my PhD thesis. My research fields were programming languages, type systems and formal verification.
-During my PhD studies, I worked on a JVM implementation of System F with support for full tail-call elimination (see this paper for more). I worked on the design of a dependently-typed calculus featuring general recursion and decidable type-checking (see this paper for more).</description>
-    </item>
-    
-    <item>
-      <title>Publications</title>
-      <link>https://bixuanzju.github.io/home/publications/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://bixuanzju.github.io/home/publications/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Thesis</title>
-      <link>https://bixuanzju.github.io/home/publications_selected/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <title>Skills</title>
+      <link>https://bixuanzju.github.io/home/skills/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bixuanzju.github.io/home/publications_selected/</guid>
+      <guid>https://bixuanzju.github.io/home/skills/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://bixuanzju.github.io/home/projects/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <title>Experience</title>
+      <link>https://bixuanzju.github.io/home/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://bixuanzju.github.io/home/projects/</guid>
+      <guid>https://bixuanzju.github.io/home/experience/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accomplish&amp;shy;ments</title>
+      <link>https://bixuanzju.github.io/home/accomplishments/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/accomplishments/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recent Posts</title>
       <link>https://bixuanzju.github.io/home/posts/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/home/posts/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Recent Publications</title>
+      <link>https://bixuanzju.github.io/home/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>https://bixuanzju.github.io/home/people/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/people/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://bixuanzju.github.io/home/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Featured Publications</title>
+      <link>https://bixuanzju.github.io/home/featured/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/home/featured/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Talks</title>
       <link>https://bixuanzju.github.io/home/talks/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/home/talks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Teaching</title>
-      <link>https://bixuanzju.github.io/home/teaching/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
-      
-      <guid>https://bixuanzju.github.io/home/teaching/</guid>
-      <description>I am a teaching assistant for the following courses at the University of Hong Kong:
- COMP3258: Functional Programming (Fall 2017, Spring 2017) COMP3259: Principles of Programming Languages (Fall 2016, Spring 2015, Fall 2014)  </description>
-    </item>
-    
-    <item>
-      <title>Tags</title>
+      <title>Popular Topics</title>
       <link>https://bixuanzju.github.io/home/tags/</link>
-      <pubDate>Wed, 20 Sep 2017 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/home/tags/</guid>
       <description></description>
@@ -90,7 +145,7 @@ During my PhD studies, I worked on a JVM implementation of System F with support
     <item>
       <title>Contact</title>
       <link>https://bixuanzju.github.io/home/contact/</link>
-      <pubDate>Wed, 20 Apr 2016 00:00:00 +0800</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/home/contact/</guid>
       <description></description>

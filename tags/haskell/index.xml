@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>haskell on Xuan Bi</title>
+    <link>https://bixuanzju.github.io/tags/haskell/</link>
+    <description>Recent content in haskell on Xuan Bi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 22:47:04 +0800</lastBuildDate>
+    
+	<atom:link href="https://bixuanzju.github.io/tags/haskell/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FCore</title>
+      <link>https://bixuanzju.github.io/project/fcore/</link>
+      <pubDate>Wed, 06 Mar 2019 22:47:04 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/fcore/</guid>
+      <description>Research middleware compiler from System F-based languages to Java with the Imperative Functional Object encoding</description>
+    </item>
+    
+    <item>
+      <title>Fi&#43;</title>
+      <link>https://bixuanzju.github.io/project/fii/</link>
+      <pubDate>Wed, 06 Mar 2019 22:42:47 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/fii/</guid>
+      <description>Coq formalization and implementation of the Fi+ calculus</description>
+    </item>
+    
+    <item>
+      <title>SEDEL</title>
+      <link>https://bixuanzju.github.io/project/sedel/</link>
+      <pubDate>Wed, 06 Mar 2019 22:38:27 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/sedel/</guid>
+      <description>Haskell implementation of a type system for first-class traits</description>
+    </item>
+    
+    <item>
+      <title>GPC</title>
+      <link>https://bixuanzju.github.io/project/gpc/</link>
+      <pubDate>Wed, 06 Mar 2019 22:34:18 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/gpc/</guid>
+      <description>Haskell implementation of Gradually Polymorphic Calculus</description>
+    </item>
+    
+    <item>
+      <title>NeColus</title>
+      <link>https://bixuanzju.github.io/project/nested/</link>
+      <pubDate>Wed, 06 Mar 2019 22:30:36 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/project/nested/</guid>
+      <description>Coq formalization of a coherent calculus with records and disjoint intersection types that supports nested composition</description>
+    </item>
+    
+  </channel>
+</rss>

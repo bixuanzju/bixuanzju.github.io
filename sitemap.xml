@@ -4,24 +4,8 @@
     
     <url>
     
-      <loc>https://bixuanzju.github.io/publication/fii/</loc>
-      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/publication/consistent/</loc>
-      <lastmod>2019-01-16T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/publication/thesis/</loc>
-      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
+      <loc>https://bixuanzju.github.io/project/fcore/</loc>
+      <lastmod>2019-03-06T22:47:04+08:00</lastmod>
     </url>
     
   
@@ -29,39 +13,7 @@
     <url>
     
       <loc>https://bixuanzju.github.io/project/fii/</loc>
-      <lastmod>2018-11-17T18:01:43+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/publication/nested-composition/</loc>
-      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/publication/typed-first-class-traits/</loc>
-      <lastmod>2018-07-19T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/project/gpc/</loc>
-      <lastmod>2018-04-12T18:01:43+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/project/necolus/</loc>
-      <lastmod>2018-04-12T18:01:43+08:00</lastmod>
+      <lastmod>2019-03-06T22:42:47+08:00</lastmod>
     </url>
     
   
@@ -69,55 +21,39 @@
     <url>
     
       <loc>https://bixuanzju.github.io/project/sedel/</loc>
-      <lastmod>2018-04-12T17:58:11+08:00</lastmod>
+      <lastmod>2019-03-06T22:38:27+08:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://bixuanzju.github.io/publication/consistent-subtyping/</loc>
-      <lastmod>2018-03-11T00:00:00+00:00</lastmod>
+      <loc>https://bixuanzju.github.io/project/gpc/</loc>
+      <lastmod>2019-03-06T22:34:18+08:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://bixuanzju.github.io/project/category/</loc>
-      <lastmod>2017-04-12T18:01:43+08:00</lastmod>
+      <loc>https://bixuanzju.github.io/project/nested/</loc>
+      <lastmod>2019-03-06T22:30:36+08:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://bixuanzju.github.io/talk/consistent-subtyping/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <loc>https://bixuanzju.github.io/publication/bi-2019-dis/</loc>
+      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://bixuanzju.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://bixuanzju.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <loc>https://bixuanzju.github.io/publication/xie-2019-toplas/</loc>
+      <lastmod>2019-01-16T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -125,7 +61,23 @@
     <url>
     
       <loc>https://bixuanzju.github.io/talk/nested/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2018-07-20T16:50:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/publication/bi-2018-essence/</loc>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/publication/bi-2018-typed/</loc>
+      <lastmod>2018-07-20T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -133,14 +85,30 @@
     <url>
     
       <loc>https://bixuanzju.github.io/talk/traits/</loc>
-      <lastmod>2017-01-01T00:00:00+08:00</lastmod>
+      <lastmod>2018-07-19T16:00:00+01:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://bixuanzju.github.io/publication/unifed-syntax/</loc>
+      <loc>https://bixuanzju.github.io/talk/consistent-subtyping/</loc>
+      <lastmod>2018-04-16T10:30:00+02:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/publication/xie-2018-consistent/</loc>
+      <lastmod>2018-03-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/publication/yang-2016-unified/</loc>
       <lastmod>2016-09-01T00:00:00+00:00</lastmod>
     </url>
     
@@ -148,16 +116,32 @@
     
     <url>
     
-      <loc>https://bixuanzju.github.io/project/fcore/</loc>
-      <lastmod>2016-04-12T18:01:43+08:00</lastmod>
+      <loc>https://bixuanzju.github.io/publication/tauber-2015-memory/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
     
   
     
     <url>
     
-      <loc>https://bixuanzju.github.io/publication/ifo/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <loc>https://bixuanzju.github.io/publication/chen-2014-biotcm/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/xuan-bi/</loc>
+      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -182,8 +166,25 @@
     
     <url>
     
-      <loc>https://bixuanzju.github.io/publication_types/4/</loc>
-      <lastmod>2018-12-13T00:00:00+00:00</lastmod>
+      <loc>https://bixuanzju.github.io/author/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/</loc>
+      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/bruno-c.-d.-s.-oliveira/</loc>
+      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -199,8 +200,60 @@
     
     <url>
     
+      <loc>https://bixuanzju.github.io/authors/huajun-chen/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/huang-li/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/jiaoyan-chen/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/ningning-xie/</loc>
+      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/peiqin-gu/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/post/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://bixuanzju.github.io/project/</loc>
-      <lastmod>2018-11-17T18:01:43+08:00</lastmod>
+      <lastmod>2019-03-06T22:47:04+08:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -217,6 +270,22 @@
     
     <url>
     
+      <loc>https://bixuanzju.github.io/publication/</loc>
+      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/talk/</loc>
+      <lastmod>2018-07-20T16:50:00+01:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://bixuanzju.github.io/tags/</loc>
       <priority>0</priority>
     </url>
@@ -225,8 +294,151 @@
     
     <url>
     
+      <loc>https://bixuanzju.github.io/authors/tom-schrijvers/</loc>
+      <lastmod>2019-01-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/tomas-tauber/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/weixin-zhang/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/xi-chen/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://bixuanzju.github.io/</loc>
-      <lastmod>2016-04-20T00:00:00+08:00</lastmod>
+      <lastmod>2019-03-06T22:47:04+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/xuan-bi/</loc>
+      <lastmod>2018-07-20T16:50:00+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/yanpeng-yang/</loc>
+      <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/zhaohui-wu/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/zhenrui-zhang/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/zhiyuan-shi/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/authors/admin/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/tags/coq/</loc>
+      <lastmod>2019-03-06T22:42:47+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/tags/dependent-type/</loc>
+      <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/tags/disjoint-intersection-type/</loc>
+      <lastmod>2019-03-06T22:30:36+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/tags/gradual-typing/</loc>
+      <lastmod>2019-03-06T22:34:18+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/tags/haskell/</loc>
+      <lastmod>2019-03-06T22:47:04+08:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://bixuanzju.github.io/tags/type-system/</loc>
+      <lastmod>2019-03-06T22:47:04+08:00</lastmod>
       <priority>0</priority>
     </url>
     
