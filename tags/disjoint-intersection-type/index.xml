@@ -6,7 +6,7 @@
     <description>Recent content in disjoint-intersection-type on Xuan Bi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
+    <copyright>&amp;copy; {year} - Xuan Bi</copyright>
     <lastBuildDate>Wed, 06 Mar 2019 22:30:36 +0800</lastBuildDate>
     
 	<atom:link href="https://bixuanzju.github.io/tags/disjoint-intersection-type/index.xml" rel="self" type="application/rss+xml" />
@@ -27,6 +27,15 @@
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/bi-2019-dis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disjoint Intersection Types: Theory and Practice</title>
+      <link>https://bixuanzju.github.io/publication/thesis/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/thesis/</guid>
       <description></description>
     </item>
     

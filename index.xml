@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xuan Bi on Xuan Bi</title>
+    <title>Xuan Bi</title>
     <link>https://bixuanzju.github.io/</link>
-    <description>Recent content in Xuan Bi on Xuan Bi</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content on Xuan Bi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
+    <copyright>&amp;copy; {year} - Xuan Bi</copyright>
     <lastBuildDate>Wed, 06 Mar 2019 22:47:04 +0800</lastBuildDate>
-    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+	    <atom:link href="https://bixuanzju.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>FCore</title>
@@ -75,6 +77,15 @@
       <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/xie-2019-toplas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Disjoint Intersection Types: Theory and Practice</title>
+      <link>https://bixuanzju.github.io/publication/thesis/</link>
+      <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/thesis/</guid>
       <description></description>
     </item>
     
@@ -147,6 +158,15 @@
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
       <guid>https://bixuanzju.github.io/publication/tauber-2015-memory/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>BioTCM-SE: a semantic search engine for the information retrieval of modern biology and traditional Chinese medicine</title>
+      <link>https://bixuanzju.github.io/publication/chen-2014-biotcm/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/publication/chen-2014-biotcm/</guid>
       <description></description>
     </item>
     

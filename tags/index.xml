@@ -6,46 +6,11 @@
     <description>Recent content in Tags on Xuan Bi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2019 - Xuan Bi </copyright>
+    <copyright>&amp;copy; {year} - Xuan Bi</copyright>
+    <lastBuildDate>Wed, 06 Mar 2019 22:47:04 +0800</lastBuildDate>
     
 	<atom:link href="https://bixuanzju.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>coq</title>
-      <link>https://bixuanzju.github.io/tags/coq/</link>
-      <pubDate>Wed, 06 Mar 2019 22:42:47 +0800</pubDate>
-      
-      <guid>https://bixuanzju.github.io/tags/coq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dependent-type</title>
-      <link>https://bixuanzju.github.io/tags/dependent-type/</link>
-      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://bixuanzju.github.io/tags/dependent-type/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>disjoint-intersection-type</title>
-      <link>https://bixuanzju.github.io/tags/disjoint-intersection-type/</link>
-      <pubDate>Wed, 06 Mar 2019 22:30:36 +0800</pubDate>
-      
-      <guid>https://bixuanzju.github.io/tags/disjoint-intersection-type/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>gradual-typing</title>
-      <link>https://bixuanzju.github.io/tags/gradual-typing/</link>
-      <pubDate>Wed, 06 Mar 2019 22:34:18 +0800</pubDate>
-      
-      <guid>https://bixuanzju.github.io/tags/gradual-typing/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>haskell</title>
@@ -62,6 +27,42 @@
       <pubDate>Wed, 06 Mar 2019 22:47:04 +0800</pubDate>
       
       <guid>https://bixuanzju.github.io/tags/type-system/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>coq</title>
+      <link>https://bixuanzju.github.io/tags/coq/</link>
+      <pubDate>Wed, 06 Mar 2019 22:42:47 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/tags/coq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gradual-typing</title>
+      <link>https://bixuanzju.github.io/tags/gradual-typing/</link>
+      <pubDate>Wed, 06 Mar 2019 22:34:18 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/tags/gradual-typing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>disjoint-intersection-type</title>
+      <link>https://bixuanzju.github.io/tags/disjoint-intersection-type/</link>
+      <pubDate>Wed, 06 Mar 2019 22:30:36 +0800</pubDate>
+      
+      <guid>https://bixuanzju.github.io/tags/disjoint-intersection-type/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dependent-type</title>
+      <link>https://bixuanzju.github.io/tags/dependent-type/</link>
+      <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://bixuanzju.github.io/tags/dependent-type/</guid>
       <description></description>
     </item>
     
