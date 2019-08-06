@@ -1,1 +1,1 @@
-auto-geneated
+auto-generated
