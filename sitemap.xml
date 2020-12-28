@@ -1,102 +1,120 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://bixuanzju.github.io/project/fcore/</loc>
-    <lastmod>2019-03-06T22:47:04+08:00</lastmod>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/project/</loc>
-    <lastmod>2019-03-06T22:47:04+08:00</lastmod>
-    <priority>0</priority>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/publication-type/1/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/tag/disjoint-intersection-type/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/publication_types/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/publication/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/publication/xie-2020-ecoop/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bixuanzju.github.io/tags/</loc>
-    <lastmod>2019-03-06T22:47:04+08:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/tag/type-system/</loc>
+    <lastmod>2020-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bixuanzju.github.io/</loc>
-    <lastmod>2019-03-06T22:47:04+08:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/tags/haskell/</loc>
-    <lastmod>2019-03-06T22:47:04+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/tags/type-system/</loc>
-    <lastmod>2019-03-06T22:47:04+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bixuanzju.github.io/tag/coq/</loc>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bixuanzju.github.io/project/fii/</loc>
-    <lastmod>2019-03-06T22:42:47+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/tags/coq/</loc>
-    <lastmod>2019-03-06T22:42:47+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/project/sedel/</loc>
-    <lastmod>2019-03-06T22:38:27+08:00</lastmod>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bixuanzju.github.io/project/gpc/</loc>
-    <lastmod>2019-03-06T22:34:18+08:00</lastmod>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/tags/gradual-typing/</loc>
-    <lastmod>2019-03-06T22:34:18+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bixuanzju.github.io/tag/gradual-typing/</loc>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/tag/haskell/</loc>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://bixuanzju.github.io/project/nested/</loc>
-    <lastmod>2019-03-06T22:30:36+08:00</lastmod>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/tags/disjoint-intersection-type/</loc>
-    <lastmod>2019-03-06T22:30:36+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bixuanzju.github.io/project/</loc>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/xuan-bi/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bixuanzju.github.io/project/sedel/</loc>
+    <lastmod>2019-03-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/publication_types/1/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bixuanzju.github.io/slides/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/authors/bruno-c.-d.-s.-oliveira/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bixuanzju.github.io/slides/example/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -105,32 +123,8 @@
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/ningning-xie/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/publication_types/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/publication/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/authors/tom-schrijvers/</loc>
-    <lastmod>2019-01-26T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/publication_types/2/</loc>
+    <loc>https://bixuanzju.github.io/publication-type/2/</loc>
     <lastmod>2019-01-16T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -139,13 +133,17 @@
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/publication_types/7/</loc>
+    <loc>https://bixuanzju.github.io/publication-type/7/</loc>
     <lastmod>2018-12-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://bixuanzju.github.io/publication/thesis/</loc>
+    <lastmod>2018-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/tag/disjoint-intersection/</loc>
     <lastmod>2018-12-21T00:00:00+00:00</lastmod>
   </url>
   
@@ -185,26 +183,68 @@
   </url>
   
   <url>
+    <loc>https://bixuanzju.github.io/tag/dependent-type/</loc>
+    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bixuanzju.github.io/publication/yang-2016-unified/</loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/yanpeng-yang/</loc>
+    <loc></loc>
     <lastmod>2016-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/tags/dependent-type/</loc>
-    <lastmod>2016-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>https://bixuanzju.github.io/tag/academic/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/huang-li/</loc>
+    <loc>https://bixuanzju.github.io/categories/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/category/demo/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/post/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/post/getting-started/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/tag/%E5%BC%80%E6%BA%90/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/category/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2020-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bixuanzju.github.io/project/fcore/</loc>
+    <lastmod>2016-03-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc></loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -213,27 +253,23 @@
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/tomas-tauber/</loc>
+    <loc></loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/weixin-zhang/</loc>
+    <loc></loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/zhenrui-zhang/</loc>
+    <loc></loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/zhiyuan-shi/</loc>
+    <loc></loc>
     <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -242,46 +278,28 @@
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/huajun-chen/</loc>
+    <loc></loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/jiaoyan-chen/</loc>
+    <loc></loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/peiqin-gu/</loc>
+    <loc></loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/xi-chen/</loc>
+    <loc></loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://bixuanzju.github.io/authors/zhaohui-wu/</loc>
+    <loc></loc>
     <lastmod>2014-01-01T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/authors/admin/</loc>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://bixuanzju.github.io/post/</loc>
   </url>
   
 </urlset>

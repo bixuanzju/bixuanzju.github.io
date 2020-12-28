@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Xuan Bi</title>
+    <title>Publications | Xuan Bi</title>
     <link>https://bixuanzju.github.io/publication/</link>
-    <description>Recent content in Publications on Xuan Bi</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>&amp;copy; {year} - Xuan Bi</copyright>
-    <lastBuildDate>Sat, 26 Jan 2019 00:00:00 +0000</lastBuildDate>
+      <atom:link href="https://bixuanzju.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - Xuan Bi</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://bixuanzju.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://bixuanzju.github.io/publication/</link>
+    </image>
     
-	<atom:link href="https://bixuanzju.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title>Row and Bounded Polymorphism via Disjoint Polymorphism</title>
+      <link>https://bixuanzju.github.io/publication/xie-2020-ecoop/</link>
+      <pubDate>Sun, 15 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://bixuanzju.github.io/publication/xie-2020-ecoop/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Distributive Disjoint Polymorphism for Compositional Programming</title>
       <link>https://bixuanzju.github.io/publication/bi-2019-dis/</link>
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/bi-2019-dis/</guid>
       <description></description>
     </item>
@@ -25,7 +32,6 @@
       <title>Consistent Subtyping for All</title>
       <link>https://bixuanzju.github.io/publication/xie-2019-toplas/</link>
       <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/xie-2019-toplas/</guid>
       <description></description>
     </item>
@@ -34,7 +40,6 @@
       <title>Disjoint Intersection Types: Theory and Practice</title>
       <link>https://bixuanzju.github.io/publication/thesis/</link>
       <pubDate>Fri, 21 Dec 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/thesis/</guid>
       <description></description>
     </item>
@@ -43,7 +48,6 @@
       <title>The Essence of Nested Composition</title>
       <link>https://bixuanzju.github.io/publication/bi-2018-essence/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/bi-2018-essence/</guid>
       <description></description>
     </item>
@@ -52,7 +56,6 @@
       <title>Typed First-Class Traits</title>
       <link>https://bixuanzju.github.io/publication/bi-2018-typed/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/bi-2018-typed/</guid>
       <description></description>
     </item>
@@ -61,7 +64,6 @@
       <title>Consistent Subtyping for All</title>
       <link>https://bixuanzju.github.io/publication/xie-2018-consistent/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/xie-2018-consistent/</guid>
       <description></description>
     </item>
@@ -70,7 +72,6 @@
       <title>Unified Syntax with Iso-Types</title>
       <link>https://bixuanzju.github.io/publication/yang-2016-unified/</link>
       <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/yang-2016-unified/</guid>
       <description></description>
     </item>
@@ -79,7 +80,6 @@
       <title>Memory-efficient Tail Calls in the JVM with Imperative Functional Objects</title>
       <link>https://bixuanzju.github.io/publication/tauber-2015-memory/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/tauber-2015-memory/</guid>
       <description></description>
     </item>
@@ -88,7 +88,6 @@
       <title>BioTCM-SE: a semantic search engine for the information retrieval of modern biology and traditional Chinese medicine</title>
       <link>https://bixuanzju.github.io/publication/chen-2014-biotcm/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://bixuanzju.github.io/publication/chen-2014-biotcm/</guid>
       <description></description>
     </item>
