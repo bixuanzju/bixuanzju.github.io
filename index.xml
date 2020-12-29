@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Xuan Bi</title>
+    <title>Xuan (Jeremy) Bi</title>
     <link>https://bixuanzju.github.io/</link>
       <atom:link href="https://bixuanzju.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Xuan Bi</description>
+    <description>Xuan (Jeremy) Bi</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 - Xuan Bi</copyright><lastBuildDate>Sun, 15 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://bixuanzju.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>Xuan Bi</title>
+      <title>Xuan (Jeremy) Bi</title>
       <link>https://bixuanzju.github.io/</link>
     </image>
     
@@ -211,14 +211,6 @@ Three
     
     <item>
       <title>The Essence of Nested Composition</title>
-      <link>https://bixuanzju.github.io/talk/nested/</link>
-      <pubDate>Fri, 20 Jul 2018 16:50:00 +0100</pubDate>
-      <guid>https://bixuanzju.github.io/talk/nested/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Essence of Nested Composition</title>
       <link>https://bixuanzju.github.io/publication/bi-2018-essence/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://bixuanzju.github.io/publication/bi-2018-essence/</guid>
@@ -230,22 +222,6 @@ Three
       <link>https://bixuanzju.github.io/publication/bi-2018-typed/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://bixuanzju.github.io/publication/bi-2018-typed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typed First-Class Traits</title>
-      <link>https://bixuanzju.github.io/talk/traits/</link>
-      <pubDate>Thu, 19 Jul 2018 16:00:00 +0100</pubDate>
-      <guid>https://bixuanzju.github.io/talk/traits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Consistent Subtyping for All</title>
-      <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
-      <pubDate>Mon, 16 Apr 2018 10:30:00 +0200</pubDate>
-      <guid>https://bixuanzju.github.io/talk/consistent-subtyping/</guid>
       <description></description>
     </item>
     

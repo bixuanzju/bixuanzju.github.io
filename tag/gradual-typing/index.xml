@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>gradual-typing | Xuan Bi</title>
+    <title>gradual-typing | Xuan (Jeremy) Bi</title>
     <link>https://bixuanzju.github.io/tag/gradual-typing/</link>
       <atom:link href="https://bixuanzju.github.io/tag/gradual-typing/index.xml" rel="self" type="application/rss+xml" />
     <description>gradual-typing</description>
@@ -26,14 +26,6 @@
       <link>https://bixuanzju.github.io/publication/xie-2019-toplas/</link>
       <pubDate>Wed, 16 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://bixuanzju.github.io/publication/xie-2019-toplas/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Consistent Subtyping for All</title>
-      <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
-      <pubDate>Mon, 16 Apr 2018 10:30:00 +0200</pubDate>
-      <guid>https://bixuanzju.github.io/talk/consistent-subtyping/</guid>
       <description></description>
     </item>
     

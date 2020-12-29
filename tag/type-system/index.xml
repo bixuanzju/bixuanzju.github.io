@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>type-system | Xuan Bi</title>
+    <title>type-system | Xuan (Jeremy) Bi</title>
     <link>https://bixuanzju.github.io/tag/type-system/</link>
       <atom:link href="https://bixuanzju.github.io/tag/type-system/index.xml" rel="self" type="application/rss+xml" />
     <description>type-system</description>
@@ -64,14 +64,6 @@
     
     <item>
       <title>The Essence of Nested Composition</title>
-      <link>https://bixuanzju.github.io/talk/nested/</link>
-      <pubDate>Fri, 20 Jul 2018 16:50:00 +0100</pubDate>
-      <guid>https://bixuanzju.github.io/talk/nested/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The Essence of Nested Composition</title>
       <link>https://bixuanzju.github.io/publication/bi-2018-essence/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://bixuanzju.github.io/publication/bi-2018-essence/</guid>
@@ -83,22 +75,6 @@
       <link>https://bixuanzju.github.io/publication/bi-2018-typed/</link>
       <pubDate>Fri, 20 Jul 2018 00:00:00 +0000</pubDate>
       <guid>https://bixuanzju.github.io/publication/bi-2018-typed/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Typed First-Class Traits</title>
-      <link>https://bixuanzju.github.io/talk/traits/</link>
-      <pubDate>Thu, 19 Jul 2018 16:00:00 +0100</pubDate>
-      <guid>https://bixuanzju.github.io/talk/traits/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Consistent Subtyping for All</title>
-      <link>https://bixuanzju.github.io/talk/consistent-subtyping/</link>
-      <pubDate>Mon, 16 Apr 2018 10:30:00 +0200</pubDate>
-      <guid>https://bixuanzju.github.io/talk/consistent-subtyping/</guid>
       <description></description>
     </item>
     
